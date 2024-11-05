@@ -9,6 +9,10 @@
         {
             Side = 5.64;
         }
+        public Square(double side)
+        {
+            Side = side;
+        }
 
         public override double Area()
         {

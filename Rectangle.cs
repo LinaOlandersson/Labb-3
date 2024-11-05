@@ -12,6 +12,11 @@
             SideA = 6.15;
             SideB = 2.23;
         }
+        public Rectangle(double sideA, double sideB)
+        {
+            SideA = sideA;
+            SideB = sideB;
+        }
 
         public override double Area()
         {

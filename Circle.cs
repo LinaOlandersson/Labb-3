@@ -9,6 +9,10 @@
         {
             Radius = 2.53;
         }
+        public Circle(double radius)
+        {
+            Radius = radius;
+        }
 
         public override double Area()
         {
