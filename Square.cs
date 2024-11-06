@@ -18,5 +18,9 @@
         {
             return Side * Side;
         }
+        public override double Circumfence()
+        {
+            return Side * 4;
+        }
     }
 }

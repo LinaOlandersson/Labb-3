@@ -22,5 +22,9 @@
         {
             return SideA * SideB;
         }
+        public override double Circumfence()
+        {
+            return (SideA * 2) + (SideB * 2);
+        }
     }
 }

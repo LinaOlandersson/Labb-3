@@ -18,5 +18,9 @@
         {
             return Math.PI * Radius * Radius;
         }
+        public override double Circumfence()
+        {
+            return Math.PI * Radius * 2;
+        }
     }
 }
